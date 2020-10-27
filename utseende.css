@@ -1,7 +1,14 @@
 h1 {
-color:rgb(0, 0, 0);
-font-size:60px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size:60px;
 
+}
+
+title {
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 body{
@@ -9,14 +16,29 @@ background-color:yellow;
 }
 
 .topbar {
+
+    align-content: center;
     background-color: orange;
-    height: 300px;
-    width:500px;
+    height: 100px;
+   
 }
 
+.dagenstilbud {
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+
+
+.dagenstilbud h2{
+   margin:0px;
+    text-align: center;
+}
+
+ 
+
 .imgto {
-    height: 400%;
-    width: 400%;
+display: block;
 }
 
 
@@ -32,3 +54,4 @@ background-color:yellow;
     height: 100px;
     width:500px;
 }
+
